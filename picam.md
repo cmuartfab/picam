@@ -63,4 +63,4 @@ Please use the [ArtFab Discussion form (under Software \> ml.lib)](http://discus
 - `sudo crontab -e`
 - place following lines at the bottom
 - `@reboot sh /home/pi/picam/downloadlauncher.sh \>/home/pi/picam/logs/cronlog 2\>&1`
-  `@reboot sh /home/pi/picam/uploadlauncher.sh \>/home/pi/picam/logs/cronlog 2\>&1`
+- `@reboot sh /home/pi/picam/uploadlauncher.sh \>/home/pi/picam/logs/cronlog 2\>&1`
