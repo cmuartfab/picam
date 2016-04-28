@@ -20,7 +20,7 @@ Please use the [ArtFab Discussion form (under Software \> ml.lib)](http://discus
 
 ## General Operation
 - Keyboard, mouse and monitor is a good way to start with limited knowledge of linux system or command line. 
-- For experienced users, try SSH in with its IP address, or connect the RPi with your desktop/laptop via Ethernet port to use .local domain. See [here]([http://elinux.org/RPi\_Advanced\_Setup])
+- For experienced users, try SSH in with its IP address, or connect the RPi with your desktop/laptop via Ethernet port to use .local domain. See [here](http://www.howtogeek.com/167190/how-and-why-to-assign-the-.local-domain-to-your-raspberry-pi/)
 
 ## Picam 
 > Enable camera 
