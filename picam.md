@@ -3,13 +3,13 @@
 **picam** is a Raspberry Pi stop motion camera used to create zoomable time-elapse video based on the ECam from CMU Create Lab.
 
 ## Bug Reports and Discussion
-Please use the [GitHub Issue Tracker](https://github.com/cmuartfab/ml-lib/issues)for all bug reports and feature requests.
+Please use the [GitHub Issue Tracker](https://github.com/cmuartfab/ml-lib/issues) for all bug reports and feature requests.
 
-Please use the [ArtFab Discussion form (under Software \> ml.lib)](http://discuss.artfab.art.cmu.edu/c/software/ml-lib)for all general conversations, questions, discussions and project sharing.  
+Please use the [ArtFab Discussion form (under Software \> ml.lib)](http://discuss.artfab.art.cmu.edu/c/software/ml-lib) for all general conversations, questions, discussions and project sharing.  
 
 ## Installation
 - Download the latest Raspbian from [Raspbian download page](https://www.raspberrypi.org/downloads/raspbian/)
-- Follow the [installation guide](raspberrypi.org/documentation/installation/installing-images/README.md)for your operation system.
+- Follow the [installation guide](raspberrypi.org/documentation/installation/installing-images/README.md) for your operation system.
 - Note: Follow the installation guide instead of using NOOBS for this software. 
 
 ## Assembly
@@ -61,6 +61,6 @@ Please use the [ArtFab Discussion form (under Software \> ml.lib)](http://discus
 
 > setup cron job to launch on startup (if needed)
 - `sudo crontab -e`
- - place following lines at the bottom
-	`@reboot sh /home/pi/picam/downloadlauncher.sh \>/home/pi/picam/logs/cronlog 2\>&1`
-	`@reboot sh /home/pi/picam/uploadlauncher.sh \>/home/pi/picam/logs/cronlog 2\>&1`
+- place following lines at the bottom
+`@reboot sh /home/pi/picam/downloadlauncher.sh \>/home/pi/picam/logs/cronlog 2\>&1`
+`@reboot sh /home/pi/picam/uploadlauncher.sh \>/home/pi/picam/logs/cronlog 2\>&1`
