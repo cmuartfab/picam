@@ -1,8 +1,6 @@
 # picam
 
-**picam** is a stop motion camera used to create zoomable time-elapse video. 
-**picam** is based on the ECam from CMU Create Lab.
-**picam** is designed to work on a variety of platforms including Raspbian on Raspberry Pi.
+**picam** is a Raspberry Pi stop motion camera used to create zoomable time-elapse video based on the ECam from CMU Create Lab.
 
 ## Bug Reports and Discussion
 Please use the [GitHub Issue Tracker](https://github.com/cmuartfab/ml-lib/issues)for all bug reports and feature requests.
