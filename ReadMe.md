@@ -34,7 +34,7 @@ Please use the [ArtFab Discussion form (under Software \> ml.lib)](http://discus
 - `sudo apt-get update`
 - `sudo apt-get upgrade`
 
->  install picam
+> install picam
 - clone this repository or download the [zip file](https://github.com/cmuartfab/picam/archive/master.zip)
 - rename "picam-master" to "picam" if necessary; copy folder into /home/pi folder on the raspberry pi
 
