@@ -9,7 +9,7 @@ Please use the [ArtFab Discussion form (under Software \> ml.lib)](http://discus
 
 ## Installation
 - Download the latest Raspbian from [Raspbian download page](https://www.raspberrypi.org/downloads/raspbian/)
-- Follow the [installation guide](raspberrypi.org/documentation/installation/installing-images/README.md) for your operation system.
+- Follow the [installation guide](http://raspberrypi.org/documentation/installation/installing-images/README.md) for your operation system.
 - Note: Follow the installation guide instead of using NOOBS for this software. 
 
 ## Assembly
