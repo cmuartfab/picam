@@ -30,7 +30,7 @@ Please use the [ArtFab Discussion form (under Software \> ml.lib)](http://discus
 - Finish
 - [sudo reboot](#) 
 
-> update OS
+> update apt-get
 - `sudo apt-get update`
 - `sudo apt-get upgrade`
 
