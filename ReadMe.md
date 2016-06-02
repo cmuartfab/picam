@@ -51,11 +51,15 @@ Please use the [ArtFab Discussion form (under Software \> ml.lib)](http://discus
 - `sudo nano interval.txt`: change intervael
 -  NOTE: if you want to move the config folder, just adjust its path in the "config_location.txt" file
 
-> run each script for a few seconds to make sure they work
+
+> change permissions on the shell scripts to make the executable
 - `cd /home/pi/picam/`
 - `chmod 755 uploadlauncher.sh`
 - `chmod 755 downloadlauncher.sh`
-- `./downloadlauncher.sh]`
+
+> run each script for a few seconds to make sure they work
+- `cd /home/pi/picam/`
+- `./downloadlauncher.sh`
 - `./uploadlauncher.sh`
 
 > setup cron job to launch on startup (if needed)
