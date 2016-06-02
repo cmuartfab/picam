@@ -34,26 +34,25 @@ Please use the [ArtFab Discussion form (under Software \> ml.lib)](http://discus
 - `sudo apt-get update`
 - `sudo apt-get upgrade`
 
->  Installation picam
-- download the file from github
-- Copy over picam folder into /home/pi folder
+>  install picam
+- clone this repository or download the [zip file](https://github.com/cmuartfab/picam/archive/master.zip)
+- rename "picam-master" to "picam" if necessary; copy folder into /home/pi folder on the raspberry pi
 
-> Install requests
-- `cd requests`
+> install python package dependencies
+- `cd /home/pi/picam/requests`
 - `sudo python setup.py install`
 
 > focus camera
 - python picam_focus.py \<length of preview in ms\> 
 	(ex: `python picam_focus.py 10000`)
 
-> configure the id and the interval in the "config_files" folder
-- `cd config_files`
-- `sudo nano id.txt`
-- `sudo nano interval.txt`
--  if you want to move the config folder, just adjust its path in the "config_location.txt" file
+> configure the camera ID and the snapshot interval; all config files are in "/home/pi/picam/config_files" 
+- `sudo nano id.txt`: change ID
+- `sudo nano interval.txt`: change intervael
+-  NOTE: if you want to move the config folder, just adjust its path in the "config_location.txt" file
 
 > run each script for a few seconds to make sure they work
-- `cd picam/`
+- `cd /home/pi/picam/`
 - `chmod 755 uploadlauncher.sh`
 - `chmod 755 downloadlauncher.sh`
 - `./downloadlauncher.sh]`
